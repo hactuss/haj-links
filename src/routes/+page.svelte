@@ -1,9 +1,25 @@
 <script>
+    import { on } from "svelte/events";
+
+    let NUMBER_EQUALS_CHARACTERS = 6;
+    let EQUAL_CHARACTERS = "=".repeat(20);
+    let MAIN_WIDTH = 0;
+    let MAIN_MIN_WIDTH = 1700;
+
+    function setAmountofEqualCharacters() {
+        EQUAL_CHARACTERS.repeat(+1);
+        return console.log(NUMBER_EQUALS_CHARACTERS);
+    }
+
+    //console.log(visualViewport?.width + "x" + visualViewport?.height);
 </script>
 
-<main id="main-container">
+<!--
+<p>Actual width: {MAIN_WIDTH}</p>
+<p>Min width: {MAIN_MIN_WIDTH}</p> -->
+<main id="main-container" bind:clientWidth={MAIN_WIDTH}>
     <div id="inner-content">
-        <div>┏============================┓</div>
+        <div>┏{EQUAL_CHARACTERS}┓</div>
         <div>
             <br />
             <h1>Hactuss</h1>
@@ -22,13 +38,14 @@
             >
             <a href="https://github.com/hactuss">Github</a>
             <br />
-            <p>passion projects</p>
+            <h2>passion projects</h2>
             <a href="https://isitspookymonth.vercel.app">is it spooky month?</a>
             <a href="https://hactuss.github.io/pages/office/office.html"
                 >worldclock</a
             >
+            <a href="https://center-calc.vercel.app">center calculator</a>
         </div>
-        <div>┗============================┛</div>
+        <div>┗{EQUAL_CHARACTERS}┛</div>
     </div>
 </main>
 
@@ -36,6 +53,7 @@
 <style>
     #main-container {
         margin-top: 50px;
-        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 </style>
