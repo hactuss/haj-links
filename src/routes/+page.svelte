@@ -31,23 +31,17 @@
             <a href="https://hactuss.vercel.app">Homepage</a>
             <a href="https://youtube.com/@hactuss">YouTube</a>
             <a href="https://hactuss.newgrounds.com">Newgrounds</a>
-            <a href="https://steamcommunity.com/profiles/76561199810742102"
-                >Steam</a
-            >
             <a href="https://github.com/hactuss">Github</a>
             <br />
             <a href="https://hactuss-portfolio.vercel.app/">{PORTFOLIO_TEXT}</a>
             <br />
             <h2>passion projects</h2>
             <a href="https://isitspookymonth.vercel.app">is it spooky month?</a>
-
-            <a href="https://hactuss.github.io/pages/office/office.html"
-                >worldclock</a
+            <a href="https://officehaj.vercel.app"
+                >The office</a
             >
-
             <a href="https://center-calc.vercel.app">center calculator</a>
-            <a href="https://ability-farming.vercel.app/">ability farming guide </a>
-
+            <a href="https://ability-farming.vercel.app/">ability farming guide for Splatoon 3 players</a>
         </div>
         <div>┗{EQUAL_CHARACTERS}┛</div>
         <a href="/signs">signs</a>
