@@ -44,7 +44,6 @@
             <a href="https://ability-farming.vercel.app/">ability farming guide for Splatoon 3 players</a>
         </div>
         <div>┗{EQUAL_CHARACTERS}┛</div>
-        <a href="/signs">signs</a>
     </div>
 </main>
 
